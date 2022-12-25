@@ -7,61 +7,85 @@
         <title>Travel Blog</title>
     </head>
     <body>
-        <nav>
-            <a href="#">FMProj</a>
-            <a href="#">Explore</a>
-            <a href="#">Sign up</a>
-            <a href="#">Log in</a>
+        <nav id="NAVBAR" class="nav-bar">
+            <a class="logo" href="explore.html">TravelBlog</a>
+            <a class="exploreNavIcon" href="explore.html">Explore</a>
+            <a class="signUp button" href="#signUp">Sign up</a>
+            <a class="logIn button" href="#logIn">Log in</a>
         </nav>
-        <main>
-            <section>
-                <h1>Get Your Next</h1>
-                <h3>Ticket</h3>
-                <a href="#">v</a>
+        <main id="landingPage" class="landing">
+            <section class="landing-header">
+                <div class="landing-body">
+                    <h1>Get your next<br /><span>Ticket</span></h1>
+                </div>
+                <div class="goDown">
+                    <a href="#comeAndExplore">v</a>
+                </div>
             </section>
-            <section>
-                <div>
+            <section id="comeAndExplore" class="explore-section">
+                <div class="explore-img">
+                    <img class="img1" src="assets/img/pic1.jpg" />
+                    <img class="img2" src="assets/img/pic2.jpg" />
+                    <img class="img3" src="assets/img/pic3.jpg" />
+                    <img class="img4" src="assets/img/pic4.jpg" />
+                </div>
+                <div class="explore-body">
                     <h2>Search for an idea</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere voluptatum earum fuga.
+                        Where would you like to travel next?Think of something you’re into—like “Mazandaran Forest”—and
+                        see what you find.
                     </p>
-                    <a href="#">Explore</a>
-                </div>
-                <div>
-                    <img src="assets/img/pic1.jpg"/>
-                    <img src="assets/img/pic2.jpg"/>
-                    <img src="assets/img/pic3.jpg"/>
-                    <img src="assets/img/pic4.jpg"/>
+                    <a class="button" href="explore.html">Explore</a>
                 </div>
             </section>
-            <section>
-                <div>
-                    <h2>Share your experience</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, minus.</p>
+            <section class="post-section">
+                <div class="post-img">
+                    <img src="assets/img/pic5.jpg" />
                 </div>
-                <div>
-                    <img src="assets/img/pic5.jpg"/>
+                <div class="post-body">
+                    <h2>See it, make it, try it, do it</h2>
+                    <p>The best part of TravelBlog is discovering new things and ideas from people around the world.</p>
+                </div>
+            </section>
+            <section class="createAcc-section">
+                <div class="goDown">
+                    <a href="#NAVBAR">^</a>
+                </div>
+                <div class="createAcc-body">
+                    <div class="body-title">
+                        <h2>Sign up to get your experience</h2>
+                    </div>
+                    <div class="body-form">
+                        <h3>Welcome to TravelBlog</h3>
+                        <h6>Share your experience</h6>
+                        <form>
+                            <label for="your-email">
+                                Email</br>
+                                <input type="email" name="your-email" id="your-email" placeholder="Email"/>
+                            </label>
+                            <label for="your-pass">
+                                Password</br>
+                                <input type="password" name="your-pass"  id="your-pass" placeholder="password"></input>
+                            </label>
+                            <button class="button">Continue</button>
+                        </form>
+                        <p>
+                            By continuing, you agree to TravelBlog's 
+                            <span>
+                                Terms of Service
+                            </span> 
+                            acknowledge you've read our 
+                            <span>
+                                Privacy Policy. Notice at collection.
+                            </span>
+                        </p>
+                        <a href="#">Already a member? Log in</a>
+                    </div>
                 </div>
             </section>
         </main>
         <footer>
-            <a href="#">^</a>
-            <div>
-                <h2>Sign up to get your experience</h2>
-            </div>
-            <div>
-                <h3>Welcome to Travel blog</h3>
-                <h6>Share your experience</h6>
-                <form>
-                    <input>
-                    <input>
-                    <input>
-                    <button>Continue</button>
-                </form>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, fugiat?</p>
-                <a href="#">Already a member? Log in</a>
-            </div>
-
+            <p>&copy; 2022 Made with <i class="fa-solid fa-heart"></i> by forooghl</p>
         </footer>
     </body>
 </html>
