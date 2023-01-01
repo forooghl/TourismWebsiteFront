@@ -1,0 +1,89 @@
+body {
+    background-color:var(--pink-lavender);
+}
+form {
+    height: 520px;
+    width: 400px;
+    background-color: rgba(231, 213, 235, 0.415);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(74, 47, 95, 0.6);
+    padding: 4em 3em;
+}
+
+form * {
+    color: var(--independence);
+    letter-spacing: .1em;
+    outline: none;
+    border: none;
+}
+
+form h3 {
+    font-weight: bolder;
+    font-size: 2em;
+    line-height: 3em;
+    text-align: center;
+    margin-top: -1em;
+}
+
+label {
+    display: block;
+    margin-top: 1.2em;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 3.5em;
+    width: 100%;
+    background-color: rgba(212, 182, 226, 0.54);
+    border-radius: .5em;
+    padding-left: .5em;
+    margin-top: .5em;
+    font-weight: 300;
+}
+
+::placeholder {
+    color: var(--independence);
+    font-weight: 600;
+}
+
+button {
+    margin-top: 1.5em;
+    width: 100%;
+    background-color: var(--pink-lavender);
+    color: var(--independence);
+    padding: 1em 0;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: calc(var(--delay) / 2);
+    background-color: var(--languid-lavender);
+}
+
+a{
+    color: var(--independence);
+    text-decoration: none;
+}
+
+#check {
+    width: 1em;
+    height: 1em;
+    margin-left: 14em;
+    position: absolute;
+    margin-top: .5em;
+}
+
+span {
+    margin-left: 2em;
+    font-size: 17px;
+}
+
