@@ -1,0 +1,221 @@
+:root {
+    --languid-lavender: #e7d5ebff;
+    --pink-lavender: #d4b6e2ff;
+    --tuscany: #cd9993ff;
+    --periwinkle-crayola: #c3ccf1ff;
+    --shadow-blue: #7895b4ff;
+    --independence: #3c4960ff;
+    --english-violet: #4a2f5fff;
+    --delay: 2s;
+    scroll-behavior: smooth;
+}
+html {
+    color: var(--independence);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans",
+        "Droid Sans", "Helvetica Neue", Helvetica, "Hiragino Kaku Gothic Pro", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 17px;
+    direction: ltr;
+    scrollbar-color: var(--english-violet) var(--independence);
+    scrollbar-width: 0.5em;
+}
+body {
+    margin: 0;
+    background-color: var(--languid-lavender);
+}
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--independence);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--english-violet);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--independence);
+}
+
+h1 {
+    font-size: 3.5em;
+}
+a {
+    margin: 0.7em;
+    text-decoration: none;
+    color: var(--english-violet);
+}
+
+.button {
+    padding: 0.4em;
+    border-radius: 0.8em;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: fit-content;
+}
+
+.nav-bar {
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: logo search-bar explore sign-up log-in; */
+    grid-template-columns: 25% 55% 7% 6% 7%;
+    background-color: var(--pink-lavender);
+}
+.logo {
+    font-size: 1.12em;
+    font-weight: bolder;
+}
+.exploreNavIcon {
+    margin-top: 0.9em;
+    text-align: right;
+}
+
+/* explrore section is active */
+.active {
+    font-weight: 600;
+    margin-left: auto;
+    border-bottom: 0.2em solid var(--english-violet);
+}
+.signUp {
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+}
+
+.logIn {
+    margin-left: 0.3em;
+}
+
+.signUp,
+.logIn {
+    color: var(--independence);
+    font-weight: 600;
+    margin-top: 0.5em;
+    background-color: var(--languid-lavender);
+}
+
+.signUp:hover,
+.logIn:hover {
+    transition: calc(var(--delay) / 5) ease-in-out;
+    color: var(--english-violet);
+    background-color: var(--pink-lavender);
+}
+
+/* Search-bar */
+form {
+    width: 80%;
+    margin: 0.7em;
+    position: relative;
+    background: var(--color-brand);
+    border-radius: 0.7em;
+}
+
+input,
+button {
+    height: 2em;
+    border: 0;
+    color: var(--independence);
+    font-size: 1.1em;
+}
+
+input[type="search"] {
+    outline: 0;
+    width: 100%;
+    padding: 0 1.6rem;
+    border-radius: 0.7em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: all calc(var(--delay) / 5) cubic-bezier(0, 0, 0.43, 1.49);
+    transition-property: width, border-radius;
+    z-index: 1;
+    position: relative;
+}
+
+button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6em;
+    font-weight: 600;
+    background: var(--languid-lavender);
+    border-radius: 0 0.7em 0.7em 0;
+}
+
+input:not(:-moz-placeholder-shown) {
+    border-radius: 0.7em 0 0 0.7em;
+    width: calc(100% - 6em);
+}
+
+input:not(:-ms-input-placeholder) {
+    border-radius: 0.7em 0 0 0.7em;
+    width: calc(100% - 6em);
+}
+
+input:not(:placeholder-shown) {
+    border-radius: 0.7em 0 0 0.7em;
+    width: calc(100% - 6em);
+}
+input:not(:-moz-placeholder-shown) + button {
+    display: block;
+}
+input:not(:-ms-input-placeholder) + button {
+    display: block;
+}
+input:not(:placeholder-shown) + button {
+    display: block;
+}
+
+/* section 1 : explore section */
+.explore-section {
+    color: var(--english-violet);
+    margin: 0.7em 0.7em;
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.post {
+    display: inline-block;
+    line-height: 0.4em;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.post p {
+    font-weight: 600;
+}
+.post h5 {
+    font-weight: 450;
+}
+
+.post p,
+.post h5 {
+    padding-left: 0.8em;
+}
+.post img {
+    border-radius: 0.9em;
+}
+
+/* Footer Section */
+footer {
+    position: relative;
+    bottom: 24px;
+    height: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0.2em;
+    background-color: var(--pink-lavender);
+    text-align: center;
+}
+footer i {
+    color: var(--english-violet);
+    animation: heartbeat var(--delay) infinite;
+}
