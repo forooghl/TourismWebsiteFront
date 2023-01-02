@@ -1,5 +1,5 @@
 body {
-    background-color:var(--pink-lavender);
+    background-color: var(--languid-lavender);
 }
 form {
     height: 520px;
@@ -41,7 +41,7 @@ input {
     display: block;
     height: 3.5em;
     width: 100%;
-    background-color: rgba(212, 182, 226, 0.54);
+    background-color: rgba(212, 182, 226, 0.252);
     border-radius: .5em;
     padding-left: .5em;
     margin-top: .5em;
