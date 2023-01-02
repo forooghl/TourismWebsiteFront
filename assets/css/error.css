@@ -1,0 +1,28 @@
+body{
+    background-color: var(--languid-lavender);
+    color: var(--independence);
+}
+
+.error{
+    width: 60%;
+    margin: 11% auto;
+    text-align: center;
+}
+
+.error h1 , .error h2 , .error p{
+    letter-spacing: .1em;
+}
+
+.error h1{
+    font-size: 10em;
+    margin-bottom: .1em;
+    font-weight: 200;
+    color: var(--shadow-blue);
+}
+
+.error a{
+    margin: 0;
+    color: var(--shadow-blue);
+    border-bottom: .07em dashed var(--shadow-blue);
+}
+
