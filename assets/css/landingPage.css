@@ -63,13 +63,9 @@ img {
     color: var(--shadow-blue);
 }
 /* must be edit */
-.goDown a {
-    text-align: center;
-    padding: 0.9em;
-    border-radius: 50%;
+.goDown {
+    font-size: 3.5em;
     color: var(--languid-lavender);
-    font-weight: bolder;
-    background-color: var(--english-violet);
 }
 
 /* section 2 : explore seaction */
