@@ -10,14 +10,17 @@
     <body>
         <main>
             <form>
-                <h3>Welcome</h3>
+                <h3>Sign up</h3>
+                
+                <label for="Username">Username</label>
+                <input type="text" placeholder="Please enter your username" id="Username" autofocus minlength="4" required>
                 
                 <label for="email">Email</label>
                 <input type="email" placeholder="Please enter your email" id="email" required>
                 
                 <label for="password">Password</label>
-                <input type="password" placeholder="Please enter your password" id="password" minlength="4" required>
-                <input type="password" placeholder="Please enter your password again" id="password" minlength="4" >
+                <input type="password" placeholder="Please enter your password" id="password" minlength="8" required>
+                <input type="password" placeholder="Please enter your password again" id="password" minlength="8" >
         
                 <button type="submit" id="Submit">Create account</button>
                 <button><a  href="login.html">Already a member ?</a></button>
