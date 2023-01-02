@@ -1,0 +1,59 @@
+body{
+    background-color: var(--languid-lavender);
+}
+.addPost form {
+    width: 30%;
+    height: 100vh;
+    background-color: var(--pink-lavender);
+    margin: 2em auto;
+    border-radius: .5em;
+    backdrop-filter: blur(1em);
+    box-shadow: 0 0 2em rgba(74, 47, 95, 0.373);
+    padding: 4em 3em;
+}
+
+.addPost form * {
+    color: var(--independence);
+    letter-spacing: 1.5px;
+    outline: none;
+    border: none;
+}
+
+.addPost form h3 {
+    font-weight: bolder;
+    font-size: 2em;
+    line-height: 3em;
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 0;
+}
+
+.addPost input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(231, 213, 235, 0.675);
+    border-radius: .5em;
+    padding: 0 .8em;
+    margin-top: .7em;
+}
+
+.addPost button {
+    width: 100%;
+    background-color: var(--languid-lavender);
+    margin-top: 2em;
+    padding: 1.5em 0;
+    font-weight: 800;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.addPost textarea {
+    display: block;
+    height: 60%;
+    width: 100%;
+    background-color: rgba(231, 213, 235, 0.675);
+    border-radius: .5em;
+    padding: 0 .8em;
+    margin-top: .7em;
+} 
