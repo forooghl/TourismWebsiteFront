@@ -1,16 +1,22 @@
 body{
     background-color: rgba(205, 153, 147, 0.132);
 }
+
 .nav-bar {
     width: 100%;
     display: grid;
-    /* grid-template-columns: logo search-bar sign-up log-in; */
-    grid-template-columns: 25% 62% 6% 7%;
+    /* grid-template-columns: logo search-bar explore sign-up log-in; */
+    grid-template-columns: 25% 55% 7% 6% 7%;
     background-color: var(--pink-lavender);
 }
 .logo {
     font-size: 1.12em;
     font-weight: bolder;
+}
+
+.exploreNavIcon {
+    margin-top: 0.9em;
+    text-align: right;
 }
 
 .signUp {
