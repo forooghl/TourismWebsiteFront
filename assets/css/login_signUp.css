@@ -28,6 +28,7 @@ form h3 {
     line-height: 3em;
     text-align: center;
     margin-top: -1em;
+    margin-bottom: 0;
 }
 
 label {
@@ -53,7 +54,7 @@ input {
 }
 
 button {
-    margin-top: 1.5em;
+    margin-top: 1.2em;
     width: 100%;
     background-color: var(--pink-lavender);
     color: var(--independence);
