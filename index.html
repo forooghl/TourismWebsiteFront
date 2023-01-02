@@ -60,13 +60,17 @@
                         <h3>Welcome to TravelBlog</h3>
                         <h6>Share your experience</h6>
                         <form>
+                            <label for="your-username">
+                                Username</br>
+                                <input type="text" name="your-username" id="your-username" placeholder="Username" autofocus minlength="4" required/>
+                            </label>
                             <label for="your-email">
                                 Email</br>
-                                <input type="email" name="your-email" id="your-email" placeholder="Email"/>
+                                <input type="email" name="your-email" id="your-email" placeholder="Email" required/>
                             </label>
                             <label for="your-pass">
                                 Password</br>
-                                <input type="password" name="your-pass"  id="your-pass" placeholder="password"></input>
+                                <input type="password" name="your-pass"  id="your-pass" placeholder="password" minlength="8" required ></input>
                             </label>
                             <button class="button">Continue</button>
                         </form>
@@ -80,7 +84,7 @@
                                 Privacy Policy. Notice at collection.
                             </span>
                         </p>
-                        <a href="#">Already a member? Log in</a>
+                        <a href="login.html">Already a member? Log in</a>
                     </div>
                 </div>
             </section>
