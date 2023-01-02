@@ -262,19 +262,6 @@ img {
     text-align: center;
     font-size: 0.9em;
 }
-footer {
-    position: relative;
-    bottom: 24px;
-    height: 0;
-    width: 100%;
-}
-
 footer p {
-    margin: .2em;
     background-color: var(--periwinkle-crayola);
-    text-align: center;
-}
-footer i {
-    color: var(--united-nations-blue);
-    animation: heartbeat var(--delay) infinite;
 }

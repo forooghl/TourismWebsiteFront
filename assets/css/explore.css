@@ -147,21 +147,3 @@ input:not(:placeholder-shown) + button {
 .post img {
     border-radius: 0.9em;
 }
-
-/* Footer Section */
-footer {
-    position: relative;
-    bottom: 24px;
-    height: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0.2em;
-    background-color: var(--pink-lavender);
-    text-align: center;
-}
-footer i {
-    color: var(--english-violet);
-    animation: heartbeat var(--delay) infinite;
-}
