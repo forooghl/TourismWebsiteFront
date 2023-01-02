@@ -9,9 +9,9 @@ form {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 40px rgba(74, 47, 95, 0.6);
+    border-radius: .5em;
+    backdrop-filter: blur(1em);
+    box-shadow: 0 0 2em rgba(74, 47, 95, 0.6);
     padding: 4em 3em;
 }
 
