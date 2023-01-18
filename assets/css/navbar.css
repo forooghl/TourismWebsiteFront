@@ -103,3 +103,20 @@
 .search-bar input:not(:placeholder-shown) + button {
     display: block;
 }
+
+/*  Responsive */
+@media screen and (max-width: 1384px) {
+    .nav-bar {
+        grid-template-columns: 25% 46% 10% 9% 10%;
+    }
+}
+@media screen and (max-width: 940px) {
+    .nav-bar {
+        grid-template-columns: 25% 38% 12% 12% 13%;
+    }
+}
+@media screen and (max-width: 696px) {
+    .nav-bar {
+        grid-template-columns: 18% 38% 12% 15% 16%;
+    }
+}
