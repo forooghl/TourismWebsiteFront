@@ -1,6 +1,16 @@
 body {
     background-color: var(--languid-lavender);
 }
+
+form p{
+    color: var(--english-violet);
+    text-align: center;
+    font-size: .9em;
+    font-weight: 600;
+    margin-top: -.9em;
+    margin-bottom: -.9em;
+}
+
 form {
     height: 520px;
     width: 400px;
