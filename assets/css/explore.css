@@ -42,3 +42,16 @@ img {
 .post img {
     border-radius: 0.9em;
 }
+
+/*  Responsive */
+
+@media screen and (max-width: 940px) {
+    .explore-section {
+        column-count: 3;
+    }
+}
+@media screen and (max-width: 696px) {
+    .explore-section {
+        column-count: 2;
+    }
+}
